@@ -1,0 +1,27 @@
+{
+  "home":{
+    "title":"Home"
+  },
+
+  "login":{
+    "userName":"Username",
+    "password":"Password",
+    "confirmPassword":"Confirm Password",
+    "userNamePlaceholder":"Enter Your Email",
+    "passwordPlaceholder":"Enter Your Password",
+    "confirmpasswordPlaceholder":"Confirm Password"
+  },
+
+  "register":{
+    "email":"Email",
+    "emailPlaceholder":"Enter Email",
+    "firstName":"First Name",
+    "firstNamePlaceholder": "Enter FirstName",
+    "lastName":"lastname",
+    "lastNamePlaceholder":"Enter LastName",
+    "city":"City",
+    "cityPlaceholder":"Enter City Name"
+
+
+  }
+}

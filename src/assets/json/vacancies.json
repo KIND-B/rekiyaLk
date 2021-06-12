@@ -1,0 +1,40 @@
+
+{
+  "details":[
+    {
+      "Company_name" :"Code Box",
+    "vacant_title":"Software Engineer",
+    "start_date":"2021-05-10",
+    "end_date":"2021-06-10",
+    "expertise_area":"Angular/Nodejs"
+    },
+
+  {
+    "Company_name" :"Code Box",
+    "vacant_title":"Software Engineer",
+    "start_date":"2021-05-10",
+    "end_date":"2021-06-10",
+    "expertise_area":"Angular/Nodejs"
+
+  },
+
+  {
+    "Company_name" :"WSO2",
+    "vacant_title":"Software Engineer",
+    "start_date":"2021-05-10",
+    "end_date":"2021-06-10",
+    "expertise_area":"Angular/Nodejs"
+
+  },
+
+  {
+    "Company_name" :"Virtusa",
+    "vacant_title":"Software Engineer",
+    "start_date":"2021-05-10",
+    "end_date":"2021-06-10",
+    "expertise_area":"Angular/Nodejs"
+
+  }
+
+]
+}

@@ -1,0 +1,131 @@
+<!-- Container containing all contents -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+      <div class="row">
+        <div class="card">
+          <div class="row">
+            <span style="text-align: center; font-size: large; color: #242b5e;"> User Register</span>
+          </div>
+          <hr>
+          <div style="text-align: center;">
+            <form [formGroup]="registerFormGroup">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'register.email' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="emailCtrl" placeholder="{{'register.emailPlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('emailCtrl').invalid && registerFormGroup.get('emailCtrl').touched"
+                    class="text-danger">Email Cannot Blank and should valid</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'register.firstName' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="fnameCtrl" placeholder="{{'register.firstNamePlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('fnameCtrl').invalid && registerFormGroup.get('fnameCtrl').touched"
+                    class="text-danger">First Name Cannot Blank</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'register.lastName' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="lastNameCtrl" placeholder="{{'register.lastNamePlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('lastNameCtrl').invalid && registerFormGroup.get('lastNameCtrl').touched"
+                    class="text-danger">Last Name Cannot Blank</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'register.city' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="cityCtrl" placeholder="{{'register.cityPlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('cityCtrl').invalid && registerFormGroup.get('cityCtrl').touched"
+                    class="text-danger">City Cannot Blank </small>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'login.password' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="password" class="form-control" formControlName="passwordCtrl" placeholder="{{'login.passwordPlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('passwordCtrl').invalid && registerFormGroup.get('passwordCtrl').touched"
+                    class="text-danger">Password Cannot Blank</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>{{'login.confirmPassword' | translate}}:</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="password" class="form-control" formControlName="confirmpasswordCtrl" placeholder="{{'login.confirmpasswordPlaceholder' | translate}}">
+                    <small
+                    *ngIf="registerFormGroup.get('confirmpasswordCtrl').invalid && registerFormGroup.get('confirmpasswordCtrl').touched"
+                    class="text-danger">Confirm Password Cannot Blank and Should Match</small>
+                  </div>
+                </div>
+              </div>
+
+
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                   <button type="button" class="btn btn-danger">Cancel</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                   <button [disabled]="!registerFormGroup.valid" type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

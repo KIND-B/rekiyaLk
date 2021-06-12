@@ -1,0 +1,26 @@
+{
+  "home":{
+    "title":"නිවස"
+  },
+  "login":{
+    "userName":"පරිශීලක නාමය",
+    "password":"මුරපදය",
+    "confirmPassword":"මුරපදය තහවුරු කරන්න",
+    "userNamePlaceholder":"ඔබේ විද්‍යුත් ලිපිනය ඇතුළත් කරන්න",
+    "passwordPlaceholder":"ඔබගේ මුරපදය",
+    "confirmpasswordPlaceholder":"මුරපදය තහවුරු කරන්න"
+
+
+  },
+  "register":{
+    "email":"විද්යුත් තැපෑල",
+    "emailPlaceholder":"විද්යුත් තැපෑල",
+    "firstName":"මුල් නම",
+    "firstNamePlaceholder": "පළමු නම ඇතුළත් කරන්න",
+    "lastName":"අවසන් නම",
+    "lastNamePlaceholder":"අවසාන නම ඇතුළත් කරන්න",
+    "city":"නගරය",
+    "cityPlaceholder":"නගරයේ නම ඇතුළත් කරන්න"
+
+  }
+}

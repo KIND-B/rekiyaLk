@@ -1,0 +1,24 @@
+{
+  "home":{
+    "title":"வீடு"
+  },
+  "login":{
+    "userName":"பயனர்பெயர்",
+    "password":"கடவுச்சொல்",
+    "confirmPassword":"கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+    "userNamePlaceholder":"மின்னஞ்சலை பதிவுசெய்",
+    "passwordPlaceholder":"தங்களது கடவுச்சொல்",
+    "confirmpasswordPlaceholder":"கடவுச்சொல்லை உறுதிப்படுத்தவும்"
+  },
+  "register":{
+    "email":"மின்னஞ்சல்",
+    "emailPlaceholder":"மின்னஞ்சலை உள்ளிடவும்",
+    "firstName":"முதல் பெயர்",
+    "firstNamePlaceholder": "முதல் பெயரை உள்ளிடவும்",
+    "lastName":"கடைசி பெயர்",
+    "lastNamePlaceholder":"கடைசி பெயரை உள்ளிடவும்",
+    "city":"நகரம்",
+    "cityPlaceholder":"நகரத்தின் பெயரை உள்ளிடவும்"
+
+  }
+}
