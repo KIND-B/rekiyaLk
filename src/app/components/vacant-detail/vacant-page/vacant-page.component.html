@@ -35,4 +35,47 @@ width="100%">
     </table>
   <!-- </div> -->
     <hr>
+    <!-- <button type="button" class="btn btn-primary me-5"  (click)="show()">
+      User Login
+    </button> -->
+
+    <div class="modal c" id="myModal" [style.display]="showModal ? 'block' : 'none'">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">{{vacant_title}}</h4>
+            <button type="button" class="close" data-dismiss="modal" (click) = "hide()">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="card" style="text-align: center;">
+              <h2>{{Company_name}}</h2>
+            </div>
+            <hr>
+<div class="card">
+  <ul class="list-group">
+    <li class="list-group-item active"><i class="fa fa-space-shuttle" aria-hidden="true"></i>{{expertise_area}}</li>
+    <li class="list-group-item">From <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>{{start_date}} To <i class="fa fa-calendar-times-o" aria-hidden="true"></i>{{end_date}}</li>
+    <li class="list-group-item">Description goes Here</li>
+    <!-- <li class="list-group-item">some data</li>
+    <li class="list-group-item">Vestibulum at eros</li> -->
+  </ul>
+
+
+
+</div>
+
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal" (click) = "hide()">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
